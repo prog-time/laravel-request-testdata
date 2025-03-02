@@ -1,0 +1,38 @@
+{
+    "name": "prog-time/laravel-request-testdata",
+    "description": "A Laravel package for automatically generating test request data based on validation rules.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/prog-time/laravel-request-testdata"
+    },
+    "authors": [
+        {
+            "name": "Prog-Time",
+            "email": "liya-rabota97@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "dompdf/dompdf": "^3.1",
+        "fakerphp/faker": "^1.23",
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "tstache/randexp": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgTime\\RequestTestdata\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

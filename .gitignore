@@ -1,0 +1,27 @@
+# Игнорируем зависимости и сборочные файлы
+/vendor/
+composer.lock
+
+# Кэш и временные файлы
+/.idea/
+/node_modules/
+/storage/
+/bootstrap/cache/
+/.env
+/.env.*
+/*.log
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Файлы тестов и IDE
+/tests/_output/
+/tests/_support/_generated/
+/.phpunit.result.cache
+/.phpstorm.meta.php
+
+# Игнорируем сгенерированные файлы
+/.vscode/
+*.swp
+*.swo
