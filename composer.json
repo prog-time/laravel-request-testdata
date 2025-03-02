@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ProgTime\\RequestTestdata\\": "src/"
+            "ProgTime\\RequestTestData\\": "src/"
         }
     },
     "autoload-dev": {
