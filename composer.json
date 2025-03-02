@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
-    "version": "v0.1.1",
+    "version": "v0.1.2",
     "prefer-stable": true,
     "support": {
         "source": "https://github.com/prog-time/laravel-request-testdata"
